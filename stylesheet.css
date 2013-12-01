@@ -23,7 +23,7 @@ body {
 
 #kopf {
 	background-color: #cccccc;
-	hight: 60px;
+	height: 60px;
 	margin-top: 0px;
 	margin-left: auto;
 	margin-right: auto;
@@ -32,8 +32,15 @@ body {
 #ha1 {
 	background-color: #2d2d2d;
 	color: #ffffff;
-	hight: auto;
+	height: auto;
 	padding-left: 5px;
+	
+}
+
+caption{
+	height: 25px;
+	padding: 10px;
+	background-color: #ffffff;
 	
 }
 
@@ -43,12 +50,13 @@ body {
 }
 
 th {
-	hight: 80px;
+	height: 60px;
 	
 }
 
 th:first-child {
 	width: 10%;
+	background-color: rgb(255, 51, 51);
 	
 }
 
@@ -58,38 +66,38 @@ td:first-child {
 }
 
 th:first-child + th {
-	width: 60%;
+	width: 55%;
 	
 }
 
 td:first-child + td {
-	width: 60%;
+	width: 55%;
 	background-color: #cccccc;
 	
 }
 
 th:first-child + th + th {
-	width: 20%;
-	background-colour: violet;
+	margin-left: 5px;
+	width: 25%;
+	background-color: #33cccc;
 	
 }
 
 td:first-child + td + td {
 	margin-left: 5px;
-	width: 20%;
-	background-colour: #cccccc;
+	width: 25%;
 	
 }
 
-th:nth-first-child + th + th + th {
+th:first-child + th + th + th {
 	width: 10%;
-	background-colour: #cccccc;
+	background-color: rgb(255, 51, 51);
 	
 }
 
-td:nth-first-child + td + td + td {
+td:first-child + td + td + td {
 	width: 10%;
-	background-colour: #cccccc;
+	background-color: #cccccc;
 	
 }
 
@@ -99,7 +107,7 @@ td:nth-first-child + td + td + td {
 }
 
 .wrap2 {
-   	margin: 0 auto;
+   	margin-top: 10px;
 }
 
 .ft {
@@ -113,7 +121,6 @@ td:nth-first-child + td + td + td {
 
 
 #center {
-	hight: auto;
 	margin: auto;
 	padding: 0px;
 }
